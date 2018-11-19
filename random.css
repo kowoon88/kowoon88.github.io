@@ -1,0 +1,433 @@
+body {
+    background: darkgrey;
+}
+
+.title{
+    font-family: 'Tangerine', serif;
+    font-size: 64px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+#startButton {
+    width: 100px;
+    height: 60px;
+    background: white;
+    color: black;
+    border: grey 3pt solid;
+    border-radius: 10%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
+    position: relative;
+    top: 10px;
+    left: 800px;
+}
+
+.chessboard {
+    width: 800px;
+    height: 800px;
+    border: 2px burlywood solid;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.boxWhite{
+    width: 100px;
+    height: 100px;
+    background: white;
+}
+
+.boxBlack {
+    width: 100px;
+    height: 100px;
+    background: black;
+}
+
+.oneone{
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+.onetwo {
+    position:absolute;
+    top:0px;
+    left:100px;
+}
+
+.onethree {
+    position:absolute;
+    top:0px;
+    left:200px;
+}
+
+.onefour {
+    position:absolute;
+    top:0px;
+    left:300px;
+}
+
+.onefive {
+    position:absolute;
+    top:0px;
+    left:400px;
+}
+
+.onesix {
+    position:absolute;
+    top:0px;
+    left:500px;
+}
+
+.oneseven {
+    position:absolute;
+    top:0px;
+    left:600px;
+}
+
+.oneeight {
+    position:absolute;
+    top:0px;
+    left:700px;
+}
+
+.twoone{
+    position:absolute;
+    top:100px;
+    left:0px;
+}
+
+.twotwo {
+    position:absolute;
+    top:100px;
+    left:100px;
+}
+
+.twothree {
+    position:absolute;
+    top:100px;
+    left:200px;
+}
+
+.twofour {
+    position:absolute;
+    top:100px;
+    left:300px;
+}
+
+.twofive {
+    position:absolute;
+    top:100px;
+    left:400px;
+}
+
+.twosix {
+    position:absolute;
+    top:100px;
+    left:500px;
+}
+
+.twoseven {
+    position:absolute;
+    top:100px;
+    left:600px;
+}
+
+.twoeight {
+    position:absolute;
+    top:100px;
+    left:700px;
+}
+
+.threeone{
+    position:absolute;
+    top:200px;
+    left:0px;
+}
+
+.threetwo {
+    position:absolute;
+    top:200px;
+    left:100px;
+}
+
+.threethree {
+    position:absolute;
+    top:200px;
+    left:200px;
+}
+
+.threefour {
+    position:absolute;
+    top:200px;
+    left:300px;
+}
+
+.threefive {
+    position:absolute;
+    top:200px;
+    left:400px;
+}
+
+.threesix {
+    position:absolute;
+    top:200px;
+    left:500px;
+}
+
+.threeseven {
+    position:absolute;
+    top:200px;
+    left:600px;
+}
+
+.threeeight {
+    position:absolute;
+    top:200px;
+    left:700px;
+}
+
+.fourone{
+    position:absolute;
+    top:300px;
+    left:0px;
+}
+
+.fourtwo {
+    position:absolute;
+    top:300px;
+    left:100px;
+}
+
+.fourthree {
+    position:absolute;
+    top:300px;
+    left:200px;
+}
+
+.fourfour {
+    position:absolute;
+    top:300px;
+    left:300px;
+}
+
+.fourfive {
+    position:absolute;
+    top:300px;
+    left:400px;
+}
+
+.foursix {
+    position:absolute;
+    top:300px;
+    left:500px;
+}
+
+.fourseven {
+    position:absolute;
+    top:300px;
+    left:600px;
+}
+
+.foureight {
+    position:absolute;
+    top:300px;
+    left:700px;
+}
+
+.fiveone{
+    position:absolute;
+    top:400px;
+    left:0px;
+}
+
+.fivetwo {
+    position:absolute;
+    top:400px;
+    left:100px;
+}
+
+.fivethree {
+    position:absolute;
+    top:400px;
+    left:200px;
+}
+
+.fivefour {
+    position:absolute;
+    top:400px;
+    left:300px;
+}
+
+.fivefive {
+    position:absolute;
+    top:400px;
+    left:400px;
+}
+
+.fivesix {
+    position:absolute;
+    top:400px;
+    left:500px;
+}
+
+.fiveseven {
+    position:absolute;
+    top:400px;
+    left:600px;
+}
+
+.fiveeight {
+    position:absolute;
+    top:400px;
+    left:700px;
+}
+
+.sixone{
+    position:absolute;
+    top:500px;
+    left:0px;
+}
+
+.sixtwo {
+    position:absolute;
+    top:500px;
+    left:100px;
+}
+
+.sixthree {
+    position:absolute;
+    top:500px;
+    left:200px;
+}
+
+.sixfour {
+    position:absolute;
+    top:500px;
+    left:300px;
+}
+
+.sixfive {
+    position:absolute;
+    top:500px;
+    left:400px;
+}
+
+.sixsix {
+    position:absolute;
+    top:500px;
+    left:500px;
+}
+
+.sixseven {
+    position:absolute;
+    top:500px;
+    left:600px;
+}
+
+.sixeight {
+    position:absolute;
+    top:500px;
+    left:700px;
+}
+
+.sevenone{
+    position:absolute;
+    top:600px;
+    left:0px;
+}
+
+.seventwo {
+    position:absolute;
+    top:600px;
+    left:100px;
+}
+
+.seventhree {
+    position:absolute;
+    top:600px;
+    left:200px;
+}
+
+.sevenfour {
+    position:absolute;
+    top:600px;
+    left:300px;
+}
+
+.sevenfive {
+    position:absolute;
+    top:600px;
+    left:400px;
+}
+
+.sevensix {
+    position:absolute;
+    top:600px;
+    left:500px;
+}
+
+.sevenseven {
+    position:absolute;
+    top:600px;
+    left:600px;
+}
+
+.seveneight {
+    position:absolute;
+    top:600px;
+    left:700px;
+}
+
+.eightone{
+    position:absolute;
+    top:700px;
+    left:0px;
+}
+
+.eighttwo {
+    position:absolute;
+    top:700px;
+    left:100px;
+}
+
+.eightthree {
+    position:absolute;
+    top:700px;
+    left:200px;
+}
+
+.eightfour {
+    position:absolute;
+    top:700px;
+    left:300px;
+}
+
+.eightfive {
+    position:absolute;
+    top:700px;
+    left:400px;
+}
+
+.eightsix {
+    position:absolute;
+    top:700px;
+    left:500px;
+}
+
+.eightseven {
+    position:absolute;
+    top:700px;
+    left:600px;
+}
+
+.eighteight {
+    position:absolute;
+    top:700px;
+    left:700px;
+}
