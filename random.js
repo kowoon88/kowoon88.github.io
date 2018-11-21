@@ -1,6 +1,6 @@
 function setRandomColor() { 
     
-    var randomColor = setInterval(function(){
+    for (var i = 0; i < elements.length; i++) {
     
     var x = Math.floor(Math.random() * 255);
     var y = Math.floor(Math.random() * 255);
@@ -9,10 +9,8 @@ function setRandomColor() {
 
     elements = document.getElementsByClassName("boxBlack");
         
-    for (var i = 0; i < elements.length; i++) {
 
-        elements[i].style.background = randomRGB;
+
+    elements[i].style.background = randomRGB;
                 
     }
-
-}, 500) }
