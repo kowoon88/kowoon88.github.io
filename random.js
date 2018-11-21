@@ -10,7 +10,7 @@ function setRandomColor() {
             var y = Math.floor(Math.random() * 255);
             var z = Math.floor(Math.random() * 255);
             var randomRGB = "rgb(" + x + ", " + y + ", " + z + ")";
-            elements[i].style.background = randomRGB;
+            elements[j].style.background = randomRGB;
         }
                 
     }
