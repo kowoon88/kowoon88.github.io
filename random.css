@@ -1,5 +1,5 @@
 body {
-    background: darkgrey;
+    background: black;
 }
 
 .title{
@@ -9,6 +9,7 @@ body {
     position: absolute;
     top: 10px;
     left: 100px;
+    color: white;
 }
 
 #startButton {
