@@ -1,0 +1,42 @@
+body {
+    background: black;
+}
+
+#pawn{
+    position: absolute;
+}
+
+#chessIcon {
+    width: 25px;
+    height: 30px;
+}
+
+.chessImage {
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    text-align:center;
+}
+
+.imageContainer {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background: white;
+    text-align: center;
+}
+
+.buttonContainer {
+    text-align: center;
+    padding-top: 20px;
+}
+
+button {
+    width: 15%;
+    height: 15%;
+    background: white;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}
+
