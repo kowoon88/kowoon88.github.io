@@ -4,6 +4,56 @@ body {
 
 #pawn{
     position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-top: 75px;
+    margin-left: 75px;
+    visibility: hidden;
+}
+
+#rook{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-top: 75px;
+    margin-left: 75px;
+    visibility: hidden;
+}
+
+#bishop{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-top: 75px;
+    margin-left: 75px;
+    visibility: hidden;
+}
+
+#knight{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-top: 75px;
+    margin-left: 75px;
+    visibility: hidden;
+}
+
+#queen{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-top: 75px;
+    margin-left: 75px;
+    visibility: hidden;
+}
+
+#king{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-top: 75px;
+    margin-left: 75px;
+    visibility: hidden;
 }
 
 #chessIcon {
@@ -11,19 +61,12 @@ body {
     height: 30px;
 }
 
-.chessImage {
-    width: 70%;
-    height: 70%;
-    margin: auto;
-    text-align:center;
-}
-
 .imageContainer {
     width: 500px;
     height: 500px;
     margin: auto;
     background: white;
-    text-align: center;
+
 }
 
 .buttonContainer {
@@ -39,4 +82,3 @@ button {
     text-align: center;
     padding: 20px;
 }
-
