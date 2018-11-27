@@ -5,13 +5,21 @@
         <title> Chess Piece </title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
         <link rel="stylesheet" href="chess.css">
         <script type="text/javascript" src="chess.js"></script>
 
     </head>
 
     <body>
-            
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="chess.html">Chess</a></li>
+                <li><a href="reflection.html">Reflection</a></li>
+            </ul>
+        </nav>
+
         <div class="imageContainer">
             
             <img id ="pawn" src = "pawn.png">
@@ -24,12 +32,12 @@
         </div>
         
         <div class ="buttonContainer">
-            <button onclick="addPawn()"><img id="chessIcon" src="pawn.png" alt="pawn"></button>
-            <button onclick="addRook()"><img id="chessIcon" src="rook.png" alt="rook"></button>
-            <button onclick="addBishop()"><img id="chessIcon" src="bishop.png" alt="bishop"></button>
-            <button onclick="addKnight()"><img id="chessIcon" src="knight.png" alt="knight"></button>
-            <button onclick="addQueen()"><img id="chessIcon" src="queen.png" alt="queen"></button>
-            <button onclick="addKing()"><img id="chessIcon" src="king.png" alt="king"></button>
+            <button onclick="addPawn()"><img class="chessIcon" src="pawn.png" alt="pawn"></button>
+            <button onclick="addRook()"><img class="chessIcon" src="rook.png" alt="rook"></button>
+            <button onclick="addBishop()"><img class="chessIcon" src="bishop.png" alt="bishop"></button>
+            <button onclick="addKnight()"><img class="chessIcon" src="knight.png" alt="knight"></button>
+            <button onclick="addQueen()"><img class="chessIcon" src="queen.png" alt="queen"></button>
+            <button onclick="addKing()"><img class="chessIcon" src="king.png" alt="king"></button>
         </div>
         
  
