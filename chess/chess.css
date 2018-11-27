@@ -2,7 +2,53 @@ body {
     background: black;
 }
 
-#pawn{
+button {
+    width: 15%;
+    height: 15%;
+    background: white;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    width: 294px;
+    height: 60px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+li a:hover:not(.active) {
+    background-color: grey;
+}
+
+.active {
+    background-color: white;
+    color: black;
+}
+
+#pawn, #bishop, #queen, #king {
     position: absolute;
     width: 350px;
     height: 350px;
@@ -11,52 +57,16 @@ body {
     visibility: hidden;
 }
 
-#rook{
+#rook, #knight {
     position: absolute;
-    width: 350px;
+    width: 280px;
     height: 350px;
     margin-top: 75px;
-    margin-left: 75px;
+    margin-left: 110px;
     visibility: hidden;
 }
 
-#bishop{
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    margin-top: 75px;
-    margin-left: 75px;
-    visibility: hidden;
-}
-
-#knight{
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    margin-top: 75px;
-    margin-left: 75px;
-    visibility: hidden;
-}
-
-#queen{
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    margin-top: 75px;
-    margin-left: 75px;
-    visibility: hidden;
-}
-
-#king{
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    margin-top: 75px;
-    margin-left: 75px;
-    visibility: hidden;
-}
-
-#chessIcon {
+.chessIcon {
     width: 25px;
     height: 30px;
 }
@@ -72,13 +82,5 @@ body {
 .buttonContainer {
     text-align: center;
     padding-top: 20px;
-}
-
-button {
-    width: 15%;
-    height: 15%;
-    background: white;
-    display: inline-block;
-    text-align: center;
-    padding: 20px;
+    padding-bottom: 20px;
 }
