@@ -1,0 +1,72 @@
+body {
+    background: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    background-color: transparent;
+    text-align: center;
+    padding: 15px 40px;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: grey;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+.outer{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;   
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+div {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.container span {
+    font-family: 'Comfortaa';
+    font-size: 5em;
+    opacity:1;
+    transition:opacity 2.5s;
+}
+
+.container span:hover {
+    opacity:0;
+    transition:opacity 50ms;
+}
