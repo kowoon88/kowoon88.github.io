@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title> Chess Piece </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+        <link rel="stylesheet" href="css/chess.css">
+        <script type="text/javascript" src="js/chess.js"></script>
+        
+
+    </head>
+
+    <body>
+
+        <nav class="block">
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a class="active" href="chess.html">Chess</a></li>
+                <li><a href="reflection.html">Reflection</a></li>
+            </ul>
+        </nav>
+        
+        <section class ="chessboard">
+
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+            <div class ="blackTile"></div>
+            <div class ="whiteTile"></div>
+
+        </section>
+    
+
+        <section class="block">
+
+            <h1>Chesspiece Maker</h1>
+
+            <div class="outer">
+
+                <div class="imageContainer">
+                    
+                    <img id ="pawn" src = "chesspiece/pawn.png">
+                    <img id ="rook" src = "chesspiece/rook.png">
+                    <img id ="bishop" src = "chesspiece/bishop.png">
+                    <img id ="knight" src = "chesspiece/knight.png">
+                    <img id ="queen" src = "chesspiece/queen.png">
+                    <img id ="king" src = "chesspiece/king.png">
+                
+                </div>
+
+            </div>   
+
+            <div class ="buttonContainer">
+
+                <button onclick="addPawn()"><img class="chessIcon" src="chesspiece/pawn.png" alt="pawn"></button>
+                <button onclick="addRook()"><img class="chessIcon" src="chesspiece/rook.png" alt="rook"></button>
+                <button onclick="addBishop()"><img class="chessIcon" src="chesspiece/bishop.png" alt="bishop"></button>
+                <button onclick="addKnight()"><img class="chessIcon" src="chesspiece/knight.png" alt="knight"></button>
+                <button onclick="addQueen()"><img class="chessIcon" src="chesspiece/queen.png" alt="queen"></button>
+                <button onclick="addKing()"><img class="chessIcon" src="chesspiece/king.png" alt="king"></button>
+            
+            </div>
+
+        </section>
+
+
+
+        <article class = "panel">
+
+            <div class="panelboard">
+
+                <div class ="blackPanel queen">
+                    
+                    <span class="detail">
+                        <h2>Chesspiece name</h2> 
+                        My name is Heesun Jung. This is a detail field that appears when user hovers
+                    </span>
+
+                </div>
+                <div class ="whitePanel king">
+                    
+                    <span class="detail">
+                        <h2>Chesspiece name</h2> 
+                        My name is Heesun Jung. This is a detail field that appears when user hovers
+                    </span>
+
+                </div>
+                <div class ="blackPanel"></div>
+                <div class ="whitePanel"></div>
+
+                <div class ="whitePanel"></div>
+                <div class ="blackPanel"></div>
+                <div class ="whitePanel"></div>
+                <div class ="blackPanel"></div>
+
+                <div class ="blackPanel"></div>
+                <div class ="whitePanel"></div>
+                <div class ="blackPanel"></div>
+                <div class ="whitePanel"></div>
+
+                <div class ="whitePanel"></div>
+                <div class ="blackPanel"></div>
+                <div class ="whitePanel"></div>
+                <div class ="blackPanel"></div>
+            
+            </div>
+
+        </article>
+
+        <footer>
+            <hr><br>
+            <p>
+            Heesun Jung | heesun@gmail.com | Dec 1, 2018
+            </p><br>
+        </footer>
+
+    </body>
+</html>
