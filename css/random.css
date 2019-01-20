@@ -39,3 +39,8 @@ li a:hover:not(.active) {
     background-color: black;
     color: white;
 }
+
+footer p{
+    color:white; 
+    text-align: center;
+}
