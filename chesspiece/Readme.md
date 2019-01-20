@@ -1,0 +1,1 @@
+chesspiece images stored here
