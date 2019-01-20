@@ -1,0 +1,254 @@
+body {
+    background: black;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    background: white;
+    text-align: center;
+    border: none;
+    box-shadow: 0 2px 8px 0 #999;
+    margin: 20px;
+}
+
+button:hover {
+    background: whitesmoke;
+}
+
+button:active {
+    box-shadow: 0 2px 3px 0 #666;
+    transform: translateY(4px);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding-bottom: 50px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    padding: 15px 40px;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover:not(.active) {
+    background-color: grey;
+}
+
+h1{
+    font-family: 'Audiowide';
+    font-size: 2.5em;
+    color:white; 
+    text-align:center;
+    padding-bottom: 30px;
+} 
+
+.active {
+    background-color: white;
+    color: black;
+}
+
+#pawn, #bishop, #queen, #king {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    visibility: hidden;
+}
+
+#rook, #knight {
+    position: absolute;
+    width: 280px;
+    height: 350px;
+    visibility: hidden;
+}
+
+.chessIcon {
+    width: 40px;
+    height: 40px;
+}
+
+.sectionDivider {
+    width: 100vw;
+    height: 80vh;
+    margin-bottom: 20vh;
+    display: block;
+}
+
+.outer{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.imageContainer {
+    width: 400px;
+    height: 400px;
+    background: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.buttonContainer {
+    display: absolute;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30%;
+}
+
+.chessboard {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    border: 1px solid white;
+    margin-bottom: 30%;
+}
+
+.blackTile{
+    background-color: black;
+    width: 12.5%;
+    padding-top: 12.5%;
+    float: left;
+
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+
+.whiteTile{
+    background-color: white;
+    width: 12.5%;
+    padding-top: 12.5%;
+    float: left;
+
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+
+.blackTile:hover, .whiteTile:hover {
+    background-color: grey;
+}
+
+.grow a { 
+    transition: all 1s ease-in-out; 
+}
+
+.grow a:hover { 
+    transform: scale(1.1); 
+}
+
+.panel {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.panelboard {
+    width: 80%;
+    height: 80%;
+    display: inline-block;
+    border: 1px solid white;
+}
+
+.whitePanel{
+    width: 25%;
+    padding-top: 25%;
+    float: left;
+
+    background-repeat: no-repeat;
+    background-size:80%;
+    background-color: white;
+    background-position: center;
+
+    transition-property: background-size;
+    transition-duration: 1.2s;
+
+}
+
+.blackPanel {
+    width: 25%;
+    padding-top: 25%;
+    float: left;
+
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-color: black;
+    background-position: center;
+
+    transition-property: background-size, background-color;
+    transition-duration: 1.2s;
+
+}
+
+.blackPanel.queen{
+    background-image: url("chesspiece/queen-w.png");
+}
+
+.whitePanel.king{
+    background-image: url("chesspiece/king.png");
+}
+
+
+.blackPanel:hover, .whitePanel:hover {
+    background-size: 90%;
+    background-color: grey;
+}
+
+.whitePanel.detail, .blackPanel.detail {
+    display: none;
+    margin-top: -90%;
+    margin-left: 5%;
+    font-size: 1em;
+
+    transition-property: display;
+    transition-duration: 1.2s;
+}
+
+.whitePanel.detail h2, .blackPanel.detail h2 {
+    font-size: 1.5em;
+}
+
+.whitePanel:hover .detail {
+    color: white;
+    display: block;
+    text-transform: uppercase; 
+}
+
+.blackPanel:hover .detail {
+    display: block;
+    font-size: 1em;
+    text-transform: uppercase; 
+}
+
+footer p{
+    color:white; 
+    text-align: center;
+}
+
